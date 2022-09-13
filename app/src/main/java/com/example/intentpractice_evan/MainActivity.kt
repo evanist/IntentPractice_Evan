@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
             val myIntent = Intent(this, MessageActivity::class.java)
 
-            myIntent.putExtra("message", )
+            myIntent.putExtra("message", inputMessage)
 
             startActivity(myIntent)
 
